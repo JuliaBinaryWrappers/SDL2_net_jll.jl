@@ -3,7 +3,7 @@ export libSDL2_net
 
 using SDL2_jll
 JLLWrappers.@generate_wrapper_header("SDL2_net")
-JLLWrappers.@declare_library_product(libSDL2_net, "libSDL2_net-2.0.so.0")
+JLLWrappers.@declare_library_product(libSDL2_net, "libSDL2_net-2.0.so.200")
 function __init__()
     JLLWrappers.@generate_init_header(SDL2_jll)
     JLLWrappers.@init_library_product(
